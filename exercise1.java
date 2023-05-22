@@ -11,5 +11,6 @@ public class exercise1 {
         int num_2 = sc.nextInt();
 
         System.out.println("La suma de los dos numeros es: " + (num_1 + num_2));
+        System.out.println("Probando GIT");
     }
 }
