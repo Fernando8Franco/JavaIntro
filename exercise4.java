@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class exercise4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Float fahrenheit;
+        float fahrenheit;
 
         System.out.println("Ingrese la temperatura en grados centígrados: ");
-        Float celsius = sc.nextFloat();
+        float celsius = sc.nextFloat();
 
         fahrenheit = 32 + (9 * celsius / 5);
 
