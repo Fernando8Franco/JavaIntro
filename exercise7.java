@@ -8,7 +8,7 @@ public class exercise7 {
         String phrase = "";
 
         //Necesitas el ! porque el while debe tener TRUE para comenzarlo
-        
+
         while (!phrase.equalsIgnoreCase("eureka")) {
             System.out.println("Ingrese una frase: ");
             phrase = sc.nextLine();
