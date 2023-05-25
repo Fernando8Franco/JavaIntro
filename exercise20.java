@@ -48,8 +48,14 @@ public class exercise20 {
 
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                System.out.print("Ingrese el valor de la posición [" + i + "][" + j + "]: ");
-                m[i][j] = sc.nextInt();
+                while (true) {
+                    System.out.print("Ingrese el valor de la posición [" + i + "][" + j + "]: ");
+                    m[i][j] = sc.nextInt();
+                    if (m[i][j] > 0 && m[i][j] < 10)
+                        break;
+                    else
+                        System.out.println("Numero ingresado incorrecto (1-9)");
+                }
             }
         }
     }
