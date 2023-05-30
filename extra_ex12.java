@@ -8,7 +8,8 @@ public class extra_ex12 {
         String num_format;
 
         for (int i = 0; i < 1000; i++) {
-            num_format = format_num.format(i);
+            num_format = format_num.format(i).replace("3", "E");
+
             System.out.printf("%s-%s-%s%n", num_format.charAt(0), num_format.charAt(1), num_format.charAt(2));
         }
     }
