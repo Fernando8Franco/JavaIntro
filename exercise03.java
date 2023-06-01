@@ -1,9 +1,8 @@
 package javaintroexercises;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class exercise3 {
+public class exercise03 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
