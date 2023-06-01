@@ -2,7 +2,7 @@ package javaintroexercises;
 
 import java.util.Scanner;
 
-public class exercise9 {
+public class exercise09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String phrase = "";
